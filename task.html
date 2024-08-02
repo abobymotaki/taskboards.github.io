@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Task Board</title>
+</head>
+<body>
+    <div class="background">
+        <div class="image">
+            <div class="taskboard">
+                <h1>TASK BOARD</h1>
+                <div class="tasks">
+                    <ul id="tasklist">
+                        <li class="task">
+                            <span class="unstrike">Clean the dishes</span>
+                            <div class="buttons">
+                                <button class="incomplete">✩</button>
+                                <button class="delete">✘</button>
+                            </div>
+                        </li>
+                        <li class="task">
+                            <span class="unstrike">Do the laundry</span>
+                            <div class="buttons">
+                                <button class="incomplete">✩</button>
+                                <button class="delete">✘</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="adding">
+                    <input type="text" placeholder="Enter a task..." id="input">
+                    <button id="add">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="task.js"></script>
+</body>
+</html>
