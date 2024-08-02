@@ -63,11 +63,11 @@ document.getElementById('tasklist').addEventListener('click', function (event) {
 
         if (target.className === 'incomplete') {
             target.className = 'complete';
-            target.innerText = '✮';
+            target.innerText = '▣';
             text.className = 'strike';
         } else {
             target.className = 'incomplete';
-            target.innerText = '✩';
+            target.innerText = '▢';
             text.className = 'unstrike';
         }
     }
