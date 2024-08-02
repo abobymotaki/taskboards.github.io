@@ -22,7 +22,7 @@ function addTask() {
     
         var completeButton = document.createElement('button');
         completeButton.className = 'incomplete';
-        completeButton.innerText = '✩';
+        completeButton.innerText = '▢';
     
         var deleteButton = document.createElement('button');
         deleteButton.className = 'delete';
